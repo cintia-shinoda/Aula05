@@ -2,8 +2,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TeacherHelper {
+	
+	// public static final double horaAula=17.50;   //horaAula é uma constante
 	// vamos substituir essa constante por uma variável
-	//public static final double horaAula=17.50;   //horaAula é uma constante
 	
 	public static void main(String[] args) {
 		int opcao=0, numeroAulas, qtdeAlunos, i;
@@ -24,7 +25,7 @@ public class TeacherHelper {
 			
 			switch (opcao) {
 			case 1:
-				/*O salário dos professores de escolas particulares em
+				/* O salário dos professores de escolas particulares em
 				 * São Paulo é composto da seguinte forma 
 				 * http://www1.sinprosp.org.br/guia_consultas.asp?mat=8*/
 				System.out.println("Para calcular seu salário base precisamos saber quantas aulas semanais o professor tem na instituição");
